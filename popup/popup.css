@@ -1,0 +1,207 @@
+body, html {
+	font-family: 'Noto Sans', sans-serif;
+	background: #292F33;
+	color: #ffffff;
+	font-size: 13px;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    overflow: hidden;
+}
+
+.bottom-container {
+    height: 21px;
+    width: 100%;
+}
+
+.container {
+	margin: 8px;
+}
+
+.hidden {
+	display: none;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.item-wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.item {
+	flex-basis: 14%;
+	text-align: center;
+	padding: 0 8px;
+}
+
+.item svg {
+	fill: #fff;
+	margin: 4px 0;
+	height: 34px;
+}
+
+.item-svg:hover svg {
+	fill: #9B30FF;
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+.item .fa {
+	font-size: 32px;
+	margin: 4px 0;
+}
+
+.item:hover .fa {
+	color: #9B30FF;
+}
+
+.stream-status {
+	cursor: pointer;
+	margin: 14px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.view-count {
+    margin: 4px 0 0 0;
+    font-size: 12px;
+}
+
+.status.offline {
+	color: #e74c3c;
+}
+
+.status.online {
+	color: #2ecc71;
+}
+
+.pulse {
+	margin: 0 3px;
+	width: 19px;
+	height: 12px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 rgba(46,204,113,0.4);
+	animation: pulse 2s infinite;
+}
+
+.hover-link:hover {
+    color: #e2e2e2;
+}
+
+.tweet-container {
+	margin: 14px 0 4px 0;
+    overflow: hidden;
+    height: 130px;
+    /*border-bottom: 1px solid #677680;*/
+}
+
+.cxlive-container {
+    text-align: center;
+    margin-left: 6px;
+    margin-bottom: 12px;
+}
+
+.cxlive-container iframe {
+    border: none;
+    overflow: hidden;
+    width: 420px;
+    height: 280px;
+}
+
+@-moz-document url-prefix() {
+    .tweet-container {
+        border-bottom: 1px solid #677680;
+        border-top: 1px solid #677680;
+    }
+}
+
+.github-wrapper, .divider-right-wrapper, .divider-left-wrapper, .options-wrapper, .version-wrapper, .changelog-wrapper {
+	position: absolute;
+	opacity: 0.8;
+	font-size: 9px;
+	bottom: 6px;
+}
+
+.github-wrapper {
+	right: 48px;
+}
+
+.divider-right-wrapper {
+	right: 42px;
+}
+
+.divider-left-wrapper {
+	left: 33px;
+}
+
+.options-wrapper {
+	right: 6px;
+}
+
+.version-wrapper {
+	left: 6px;
+}
+
+.changelog-wrapper {
+	left: 40px;
+}
+
+.github-wrapper:hover, .options-wrapper:hover, .changelog-wrapper:hover {
+	opacity: 1;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+	padding-left: 0px;
+	width: 335px;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-box-shadow: 0 0 0 0 rgba(46,204,113,0.4);
+	}
+	70% {
+		-webkit-box-shadow: 0 0 0 6px rgba(46,204,113,0);
+	}
+	100% {
+		-webkit-box-shadow: 0 0 0 0 rgba(46,204,113,0);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		-moz-box-shadow: 0 0 0 0 rgba(46,204,113,0.4);
+		box-shadow: 0 0 0 0 rgba(46,204,113,0.4);
+	}
+	70% {
+		-moz-box-shadow: 0 0 0 6px rgba(46,204,113,0);
+		box-shadow: 0 0 0 6px rgba(46,204,113,0);
+	}
+	100% {
+		-moz-box-shadow: 0 0 0 0 rgba(46,204,113,0);
+		box-shadow: 0 0 0 0 rgba(46,204,113,0);
+	}
+}

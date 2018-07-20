@@ -1,0 +1,196 @@
+/* Popout chat */
+.yt-live-chat-text-message-renderer-0 #img[src*="ytimg.com/"] + #content #author-name {
+    color: rgba(229, 126, 32, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-A"] + #content #author-name {
+    color: rgba(71, 210, 136, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-B"] + #content #author-name {
+    color: rgba(185, 79, 241, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-C"] + #content #author-name {
+    color: rgba(60, 220, 54, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-D"] + #content #author-name {
+    color: rgba(223, 68, 220, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-E"] + #content #author-name {
+    color: rgba(107, 212, 50, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-F"] + #content #author-name {
+    color: rgba(140, 105, 241, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-G"] + #content #author-name {
+    color: rgba(163, 209, 45, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-H"] + #content #author-name {
+    color: rgba(179, 93, 213, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-I"] + #content #author-name {
+    color: rgba(94, 219, 98, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-J"] + #content #author-name {
+    color: rgba(202, 70, 187, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-K"] + #content #author-name {
+    color: rgba(61, 170, 39, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-L"] + #content #author-name {
+    color: rgba(239, 103, 213, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-M"] + #content #author-name {
+    color: rgba(131, 204, 63, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-N"] + #content #author-name {
+    color: rgba(217, 120, 235, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-O"] + #content #author-name {
+    color: rgba(151, 189, 18, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-P"] + #content #author-name {
+    color: rgba(92, 122, 241, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-Q"] + #content #author-name {
+    color: rgba(223, 199, 27, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-R"]>#content #author-name {
+    color: rgba(76, 138, 231, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-S"]>#content #author-name {
+    color: rgba(240, 47, 20, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-T"]>#content #author-name {
+    color: rgba(45, 211, 173, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-U"]>#content #author-name {
+    color: rgba(238, 48, 52, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-V"]>#content #author-name {
+    color: rgba(68, 195, 87, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-W"]>#content #author-name {
+    color: rgba(171, 118, 220, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-X"]>#content #author-name {
+    color: rgba(197, 191, 48, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-Y"]>#content #author-name {
+    color: rgba(109, 125, 219, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-Z"]>#content #author-name {
+    color: rgba(236, 168, 33, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-a"]>#content #author-name {
+    color: rgba(50, 149, 233, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-b"]>#content #author-name {
+    color: rgba(237, 94, 37, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-c"]>#content #author-name {
+    color: rgba(166, 148, 242, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-d"]>#content #author-name {
+    color: rgba(72, 138, 22, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-e"]>#content #author-name {
+    color: rgba(140, 117, 210, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-f"]>#content #author-name {
+    color: rgba(170, 191, 61, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-g"]>#content #author-name {
+    color: rgba(188, 99, 179, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-h"]>#content #author-name {
+    color: rgba(46, 156, 66, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-i"]>#content #author-name {
+    color: rgba(230, 142, 224, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-j"]>#content #author-name {
+    color: rgba(117, 165, 42, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-k"]>#content #author-name {
+    color: rgba(232, 63, 93, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-l"]>#content #author-name {
+    color: rgba(120, 212, 124, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-m"]>#content #author-name {
+    color: rgba(228, 73, 36, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-n"]>#content #author-name {
+    color: rgba(70, 173, 104, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-o"]>#content #author-name {
+    color: rgba(232, 76, 75, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-p"]>#content #author-name {
+    color: rgba(61, 141, 71, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-q"]>#content #author-name {
+    color: rgba(229, 101, 106, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-r"]>#content #author-name {
+    color: rgba(149, 200, 88, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-s"]>#content #author-name {
+    color: rgba(220, 90, 74, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-t"]>#content #author-name {
+    color: rgba(149, 207, 115, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-u"]>#content #author-name {
+    color: rgba(206, 101, 82, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-v"]>#content #author-name {
+    color: rgba(88, 144, 52, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-w"]>#content #author-name {
+    color: rgba(243, 127, 96, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-x"]>#content #author-name {
+    color: rgba(121, 175, 85, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-y"]>#content #author-name {
+    color: rgba(229, 126, 32, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-z"]>#content #author-name {
+    color: rgba(180, 184, 83, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-0"]>#content #author-name {
+    color: rgba(204, 106, 53, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-1"]>#content #author-name {
+    color: rgba(133, 139, 35, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-2"]>#content #author-name {
+    color: rgba(240, 148, 100, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-3"]>#content #author-name {
+    color: rgba(188, 165, 39, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-4"]>#content #author-name {
+    color: rgba(231, 150, 77, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-5"]>#content #author-name {
+    color: rgba(172, 133, 15, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-6"]>#content #author-name {
+    color: rgba(225, 182, 85, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-7"]>#content #author-name {
+    color: rgba(187, 119, 34, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-8"]>#content #author-name {
+    color: rgba(170, 133, 46, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-9"]>#content #author-name {
+    color: rgba(222, 155, 54, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/--"]>#content #author-name {
+    color: rgba(229, 126, 32, 1.00);
+}
+.yt-live-chat-text-message-renderer-0 #img[src*="/-_"]>#content #author-name {
+    color: rgba(70, 173, 104, 1.00);
+}

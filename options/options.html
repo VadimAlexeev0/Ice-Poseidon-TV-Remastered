@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ice Poseidon TV</title>
+    <link href="options.css" rel="stylesheet" type="text/css">
+    <script src="../external/jquery.js"></script>
+    <script src="options.js"></script>
+</head>
+<body>
+    <h1>
+        <img src="../icons/64.png" alt="Ice"> Ice Poseidon TV
+    </h1>
+    <small class="soon">Emote option changes will require a refresh of the livestream page.</small><br><br>
+    <small class="soon">Options are automatically saved.</small>
+    <h2>Options</h2>
+    <form id="options">
+        <table>
+            <tr>
+                <td>Display a notification when live:</td>
+                <td><input type="checkbox" name="isActivated" checked></td>
+            </tr>
+            <tr>
+                <td>Play a sound effect when live:</td>
+                <td><input type="checkbox" name="notificationSoundEnabled" checked></td>
+            </tr>
+            <tr>
+                <td>Notification sound level:</td>
+                <td><input type="range" name="notificationVolume" min="1" max="100"></td>
+            </tr>
+            <tr class="paddingBottom">
+                <td>Always redirect to YouTube Gaming:</td>
+                <td><input type="checkbox" name="redirectToYTGaming" checked></td>
+            </tr>
+            <tr class="trLine">
+                <td>Enable Twitch emotes:</td>
+                <td><input type="checkbox" name="emotesTwitch" checked></td>
+            </tr>
+            <tr>
+                <td>Enable BTTV emotes:</td>
+                <td><input type="checkbox" name="emotesBTTV" checked></td>
+            </tr>
+             <tr>
+                <td>Enable Twitch subscriber emotes:</td>
+                <td><input type="checkbox" name="emotesSub" checked></td>
+            </tr>
+            <tr class="paddingBottom">
+                <td>Enable Ice's old subscriber emotes:</td>
+                <td><input type="checkbox" name="emotesIce" checked></td>
+            </tr>
+            <tr>
+                <td>Enabled emote channels (seperated by comma):</td>
+                <td><input name="BTTVChannels" style="width:380px"></input></td>
+            </tr>
+            <tr class="trLine">
+                <td>Disable chat avatars:</td>
+                <td><input type="checkbox" name="disableAvatars" checked></td>
+            </tr>
+            <tr>
+                <td>Chat name colors:</td>
+                <td><input type="checkbox" name="enableChatColors" checked></td>
+            </tr>
+            <tr>
+                <td>Lines between chat messages:</td>
+                <td><input type="checkbox" name="enableSplitChat"></td>
+            </tr>
+            <tr>
+                <td>Show deleted messages:</td>
+                <td><input type="checkbox" name="showDeletedMessages"></td>
+            </tr>
+            <tr>
+                <td>BTTV style mention highlight:</td>
+                <td><input type="checkbox" name="mentionHighlight"></td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <button class="testNotification">Test notification</button><br><br>
+    <b>Change Notification Sound (max 3.5mb):</b><br><br>
+    <button id="reset">Reset Sound</button>&nbsp;<input type="file" id="newSound" accept="audio/*" /><br><br>
+    <b id="currentSound"></b><br><br>
+    <h2>Toggle Streamers</h2>
+    <form id="streamers">
+        <table>
+            <tr>
+                <td>Sam Pepper:</td>
+                <td><input type="checkbox" name="sam_pepper_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Tracksuit Andy:</td>
+                <td><input type="checkbox" name="tracksuit_andy_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Ebz:</td>
+                <td><input type="checkbox" name="ebz_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>ONLYUSEmeBLADE:</td>
+                <td><input type="checkbox" name="onlyusemeblade_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Marie:</td>
+                <td><input type="checkbox" name="marie_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Hypeman Vince:</td>
+                <td><input type="checkbox" name="hypeman_vince_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Asian Andy:</td>
+                <td><input type="checkbox" name="asian_andy_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Bjorn:</td>
+                <td><input type="checkbox" name="bjorn_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Voldesad:</td>
+                <td><input type="checkbox" name="gray_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Kiedom:</td>
+                <td><input type="checkbox" name="kiedom_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Sweet Erin:</td>
+                <td><input type="checkbox" name="sweeterin_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Mexican Acne:</td>
+                <td><input type="checkbox" name="mexicanandy_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Chad:</td>
+                <td><input type="checkbox" name="anything4views_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Hyphonix:</td>
+                <td><input type="checkbox" name="hyphonix_enabled" checked></td>
+            </tr>
+            <tr>
+                <td>Vexxed:</td>
+                <td><input type="checkbox" name="vexxed_enabled" checked></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
